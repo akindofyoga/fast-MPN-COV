@@ -215,7 +215,7 @@ For making our Fast MPN-COV meta layer can be added in a network conveniently, w
 1.  Download the initial weights from [here](https://drive.google.com/open?id=19TWen7p9UDyM0Ueu9Gb22NtouR109C6j)
 2.  export R50=/the/path/to/mpncovresnet50-15991845.pth
 3. `cp finetune/finetune.sh ./`
-4.  modify the dataset path in `finetune.sh`
+4.  Specify the `benchmark`, `datadir`, and `num_classes` in `finetune.sh`
 5. `sh finetune.sh`
 
 #### for finetuning VGG-model by using BCNN
